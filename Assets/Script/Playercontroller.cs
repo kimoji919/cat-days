@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 ///���ƽ�ɫ�ƶ���������������
@@ -9,11 +9,11 @@ public class Playercontroller : MonoBehaviour
 
     public int maxHealth = 20;
     public float timeInvincible = 1.0f;
-    
-    public int health { get { return currentHealth; }}
+
+    public int health { get { return currentHealth; } }
     public Transform RespawnPosition;
     int currentHealth;
-    
+
     bool isInvincible;
     float invincibleTimer;
 
@@ -26,12 +26,14 @@ public class Playercontroller : MonoBehaviour
 
     private float _x;
     private float _y;
+
+    public GameObject dialogControl;
     // Start is called before the first frame update
     void Start()
     {
         _rigidbody2D = GetComponent<Rigidbody2D>();///�Ѿ�ʵ����
-        currentHealth = maxHealth/2;
-        _animator = GetComponent<Animator>();      
+        currentHealth = maxHealth / 2;
+        _animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -48,7 +50,7 @@ public class Playercontroller : MonoBehaviour
                 isInvincible = false;
         }
 
-        if(!Mathf.Approximately(a:movement.x,b:0.0f)||!Mathf.Approximately(a: movement.y, b: 0.0f))
+        if (!Mathf.Approximately(a: movement.x, b: 0.0f) || !Mathf.Approximately(a: movement.y, b: 0.0f))
         {
             _lookDirection.Set(movement.x, movement.y);
             _lookDirection.Normalize();
@@ -59,6 +61,38 @@ public class Playercontroller : MonoBehaviour
         _animator.SetFloat(name: "speed", movement.magnitude);
 
         _currentInput = movement;
+        //Npc交互：
+        if (Input.GetKeyDown(KeyCode.X))
+        {
+            RaycastHit2D hit = Physics2D.Raycast(_rigidbody2D.position + Vector2.up * 0.2f, _lookDirection, 2f,
+                LayerMask.GetMask("NPC"));//射线（发射的位置，发射方向，射线长度，射线目标（找相应layer））
+
+            if (hit)
+            {
+                NpcController npcController = hit.collider.GetComponent<NpcController>();
+                if (npcController)
+                {
+                    dialogControl.SetActive(true);
+                }
+            }
+        }
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            RaycastHit2D hit = Physics2D.Raycast(_rigidbody2D.position + Vector2.up * 0.2f, _lookDirection, 2f,
+                LayerMask.GetMask("NPC"));//射线（发射的位置，发射方向，射线长度，射线目标（找相应layer））
+
+            if (hit)
+            {
+                NpcController npcController = hit.collider.GetComponent<NpcController>();
+                if (npcController)
+                {
+                    dialogControl.SetActive(false);
+                }
+            }
+
+
+        }
     }
 
     private void FixedUpdate()
@@ -73,14 +107,14 @@ public class Playercontroller : MonoBehaviour
         if (amount < 0)
         {
             if (isInvincible)
-                return; 
+                return;
             isInvincible = true;
             invincibleTimer = timeInvincible;
         }
         currentHealth = Mathf.Clamp(currentHealth + amount, 0, maxHealth);
         // Debug.Log(currentHealth + "/" + maxHealth);
-        print("current health:"+currentHealth);
-        if(currentHealth==0)
+        print("current health:" + currentHealth);
+        if (currentHealth == 0)
         {
             Respawn();
         }
@@ -88,7 +122,7 @@ public class Playercontroller : MonoBehaviour
 
     private void Respawn()
     {
-        ChangeHealth(maxHealth/2);
-        _rigidbody2D.position=RespawnPosition.position;
+        ChangeHealth(maxHealth / 2);
+        _rigidbody2D.position = RespawnPosition.position;
     }
 }
