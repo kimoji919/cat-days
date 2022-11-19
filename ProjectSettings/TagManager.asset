@@ -3,7 +3,12 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - ScoreText
+  - Timer
+  - TimerText
+  - Mole
+  - CM
   layers:
   - Default
   - TransparentFX
@@ -14,11 +19,11 @@ TagManager:
   - 
   - 
   - background
+  - NPC
   - 
+  - Dialog
   - 
-  - 
-  - 
-  - 
+  - miniGame
   - 
   - 
   - 
@@ -44,12 +49,24 @@ TagManager:
   - name: background
     uniqueID: 2857198093
     locked: 0
+  - name: Environment
+    uniqueID: 3205672213
+    locked: 0
+  - name: NPC
+    uniqueID: 1633059247
+    locked: 0
   - name: Player
     uniqueID: 69540827
     locked: 0
   - name: item
     uniqueID: 2423423139
     locked: 0
-  - name: Environment
-    uniqueID: 3205672213
+  - name: Dialog
+    uniqueID: 1531048291
+    locked: 0
+  - name: miniBackground
+    uniqueID: 3357852605
+    locked: 0
+  - name: miniGame
+    uniqueID: 1351477429
     locked: 0
