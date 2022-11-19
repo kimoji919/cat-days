@@ -1,11 +1,22 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-///¿ØÖÆ½ÇÉ«ÒÆ¶¯¡¢ÉúÃü¡¢¶¯»­µÈ
+///ï¿½ï¿½ï¿½Æ½ï¿½É«ï¿½Æ¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 
 public class Playercontroller : MonoBehaviour
 {
-    public float speed = 5f;///ÒÆ¶¯ËÙ¶È
+    public float speed = 5f;///ï¿½Æ¶ï¿½ï¿½Ù¶ï¿½
+
+    public int maxHealth = 20;
+    public float timeInvincible = 1.0f;
+    
+    public int health { get { return currentHealth; }}
+    public Transform RespawnPosition;
+    int currentHealth;
+    
+    bool isInvincible;
+    float invincibleTimer;
+
 
     private Rigidbody2D _rigidbody2D;
     private Animator _animator;
@@ -18,17 +29,24 @@ public class Playercontroller : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        _rigidbody2D = GetComponent<Rigidbody2D>();///ÒÑ¾­ÊµÀý»¯
-        _animator = GetComponent<Animator>();
+        _rigidbody2D = GetComponent<Rigidbody2D>();///ï¿½Ñ¾ï¿½Êµï¿½ï¿½ï¿½ï¿½
+        currentHealth = maxHealth/2;
+        _animator = GetComponent<Animator>();      
     }
 
     // Update is called once per frame
     void Update()
     {
         _x = Input.GetAxis("Horizontal");
-        _y = Input.GetAxis("Vertical");///»ñÈ¡xy
+        _y = Input.GetAxis("Vertical");///ï¿½ï¿½È¡xy
 
         Vector2 movement = new Vector2(_x, _y);
+        if (isInvincible)
+        {
+            invincibleTimer -= Time.deltaTime;
+            if (invincibleTimer < 0)
+                isInvincible = false;
+        }
 
         if(!Mathf.Approximately(a:movement.x,b:0.0f)||!Mathf.Approximately(a: movement.y, b: 0.0f))
         {
@@ -50,4 +68,27 @@ public class Playercontroller : MonoBehaviour
         _rigidbody2D.MovePosition(position);
     }
 
+    public void ChangeHealth(int amount)
+    {
+        if (amount < 0)
+        {
+            if (isInvincible)
+                return; 
+            isInvincible = true;
+            invincibleTimer = timeInvincible;
+        }
+        currentHealth = Mathf.Clamp(currentHealth + amount, 0, maxHealth);
+        // Debug.Log(currentHealth + "/" + maxHealth);
+        print("current health:"+currentHealth);
+        if(currentHealth==0)
+        {
+            Respawn();
+        }
+    }
+
+    private void Respawn()
+    {
+        ChangeHealth(maxHealth/2);
+        _rigidbody2D.position=RespawnPosition.position;
+    }
 }
