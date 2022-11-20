@@ -217,7 +217,11 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
+<<<<<<< Updated upstream
   m_Constraints: 0
+=======
+  m_Constraints: 4
+>>>>>>> Stashed changes
 --- !u!212 &20902251
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -17273,7 +17277,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2055256152}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
