@@ -33,6 +33,6 @@ public class DialogController : MonoBehaviour
     public void OnclickGame()
     {
         Box.SetActive(false);
-        SceneManager.LoadScene(1);//GetActive获取当前Scene
+        SceneManager.LoadScene(2);//GetActive获取当前Scene
     }
 }
