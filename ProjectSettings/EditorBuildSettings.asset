@@ -17,4 +17,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/cat-diary_1.unity
     guid: 1bd096fe74229234c86ae14729cdbf10
+  - enabled: 1
+    path: Assets/Scenes/begin.unity
+    guid: 4a7a43a7324eebe499410cdef1005566
+  - enabled: 1
+    path: Assets/Scenes/dodge.unity
+    guid: 53bc948403049d2428fe19a2e3c558fb
+  - enabled: 1
+    path: Assets/Scenes/end.unity
+    guid: b3043a9f913546e40a40387dc020f632
   m_configObjects: {}

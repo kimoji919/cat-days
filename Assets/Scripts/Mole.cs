@@ -40,7 +40,13 @@ public class Mole : MonoBehaviour
     private void OnMouseDown() {
         gameController.holes[id].moleStateObj = Instantiate(hitMolePrefab,gameObject.transform.position,Quaternion.identity);
         Destroy(gameObject);
+        //数据更新
+        if (GameObject.Find("Data"))
+        {
+            GameObject.Find("Data").GetComponent<DataController>().score += 1;
+        }
         score ++;
         scoreText.text = "Score：" + score;
     }
+
 }

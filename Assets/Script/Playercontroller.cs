@@ -1,21 +1,18 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 ///���ƽ�ɫ�ƶ���������������
 
 public class Playercontroller : MonoBehaviour
 {
     public float speed = 5f;///�ƶ��ٶ�
 
-    public float maxHealth = 20;
+    public int maxHealth = 20;
     public float timeInvincible = 1.0f;
 
-
-    public float health { get { return currentHealth; } }
+    public int health { get { return currentHealth; } }
     public Transform RespawnPosition;
-    public Image healthmeter;
-    float currentHealth;
+    int currentHealth;
 
     bool isInvincible;
     float invincibleTimer;
@@ -37,6 +34,11 @@ public class Playercontroller : MonoBehaviour
         _rigidbody2D = GetComponent<Rigidbody2D>();///�Ѿ�ʵ����
         currentHealth = maxHealth / 2;
         _animator = GetComponent<Animator>();
+        //数据导入
+        if (GameObject.FindGameObjectsWithTag("Data").Length > 1)
+        {
+            currentHealth = GameObject.FindWithTag("Data").GetComponent<DataController>().health;
+        }
     }
 
     // Update is called once per frame
@@ -105,7 +107,7 @@ public class Playercontroller : MonoBehaviour
         _rigidbody2D.MovePosition(position);
     }
 
-    public void ChangeHealth(float amount)
+    public void ChangeHealth(int amount)
     {
         if (amount < 0)
         {
@@ -121,18 +123,11 @@ public class Playercontroller : MonoBehaviour
         {
             Respawn();
         }
-        Amount();
     }
 
     private void Respawn()
     {
         ChangeHealth(maxHealth / 2);
         _rigidbody2D.position = RespawnPosition.position;
-    }
-
-    public void Amount()
-    {
-        healthmeter.fillAmount = currentHealth/maxHealth;
-        print("current fillamount:"+healthmeter.fillAmount);
     }
 }

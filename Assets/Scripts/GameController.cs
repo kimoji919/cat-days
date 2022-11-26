@@ -15,6 +15,7 @@ public class GameController : MonoBehaviour
     public hole[] holes;
     public GameObject holePrefab;
     public GameObject molePrefab;
+    public GameObject _cursor;
     public Timer timer;
     public Text timeText;
     public GameObject gameOver;
@@ -25,6 +26,10 @@ public class GameController : MonoBehaviour
     {
         initMap(); 
         InvokeRepeating("MoleAppear",0.2f,1);
+        if (GameObject.Find("Data"))
+        {
+            GameObject.Find("Data").GetComponent<DataController>().MoleRecord += 1;
+        }
     }
 
     // Update is called once per frame
@@ -51,7 +56,7 @@ public class GameController : MonoBehaviour
                 holes[i*3+j].posX = original.x + 2f*j;
                 holes[i*3+j].posY = original.y + 1f*i;
                 holes[i*3+j].isAppear = false;
-                Instantiate(holePrefab,new Vector3(holes[i*3+j].posX,holes[i*3+j].posY,0),Quaternion.identity);
+                Instantiate(holePrefab,new Vector3(holes[i*3+j].posX,holes[i*3+j].posY,0),Quaternion.identity);//clone object
             }
         }
     }
@@ -65,7 +70,7 @@ public class GameController : MonoBehaviour
         }
 
         holes[id].isAppear = true;
-        holes[id].moleStateObj = Instantiate(molePrefab,new Vector3(holes[id].posX,holes[id].posY + 0.4f,0),Quaternion.identity);
+        holes[id].moleStateObj = Instantiate(molePrefab,new Vector3(holes[id].posX,holes[id].posY + 0.6f,0),Quaternion.identity);
         holes[id].moleStateObj.GetComponent<Mole>().id = id;
     }
 
@@ -92,5 +97,7 @@ public class GameController : MonoBehaviour
         Destroy(timer);
         gameOver.SetActive(true);
         startButton.SetActive(true);
+        Cursor.visible = true;
+        _cursor.SetActive(false);
     }
 }
