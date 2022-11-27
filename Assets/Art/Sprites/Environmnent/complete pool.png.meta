@@ -1,9 +1,5 @@
 fileFormatVersion: 2
-<<<<<<< Updated upstream
 guid: 517a3faf1891e57459df1f1bd4330ce5
-=======
-guid: d9acde39d660e214aba039b3685aef85
->>>>>>> Stashed changes
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -24,10 +20,7 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
-<<<<<<< Updated upstream
     flipGreenChannel: 0
-=======
->>>>>>> Stashed changes
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
@@ -55,11 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-<<<<<<< Updated upstream
   spritePixelsToUnits: 16
-=======
-  spritePixelsToUnits: 100
->>>>>>> Stashed changes
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -75,10 +64,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
-<<<<<<< Updated upstream
   swizzle: 50462976
-=======
->>>>>>> Stashed changes
   cookieLightType: 0
   platformSettings:
   - serializedVersion: 3
@@ -117,21 +103,6 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-<<<<<<< Updated upstream
-=======
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
->>>>>>> Stashed changes
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -139,17 +110,10 @@ TextureImporter:
       name: complete pool_0
       rect:
         serializedVersion: 2
-<<<<<<< Updated upstream
         x: 16
         y: 112
         width: 16
         height: 16
-=======
-        x: 0
-        y: 85.33333
-        width: 42.666668
-        height: 42.666668
->>>>>>> Stashed changes
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -157,13 +121,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream
       spriteID: d81d5aa98fd6071468ee18f6fbb3d084
       internalID: 986443104
-=======
-      spriteID: 082de1f4f36d2174dbb418c2019815d7
-      internalID: 442309670
->>>>>>> Stashed changes
       vertices: []
       indices: 
       edges: []
@@ -172,17 +131,10 @@ TextureImporter:
       name: complete pool_1
       rect:
         serializedVersion: 2
-<<<<<<< Updated upstream
         x: 32
         y: 112
         width: 16
         height: 16
-=======
-        x: 42
-        y: 85.33333
-        width: 42.666668
-        height: 42.666668
->>>>>>> Stashed changes
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -190,13 +142,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream
       spriteID: c9acc4a6f6e0e114189714455f847a54
       internalID: 1516024475
-=======
-      spriteID: d19f3ff1eafaf8b4485919669a12f46b
-      internalID: -1427574646
->>>>>>> Stashed changes
       vertices: []
       indices: 
       edges: []
@@ -205,17 +152,10 @@ TextureImporter:
       name: complete pool_2
       rect:
         serializedVersion: 2
-<<<<<<< Updated upstream
         x: 48
         y: 112
         width: 16
         height: 16
-=======
-        x: 84
-        y: 85.33333
-        width: 42.666668
-        height: 42.666668
->>>>>>> Stashed changes
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -223,13 +163,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream
       spriteID: cd1fa45fc8d58f0419bef4dc42b30545
       internalID: -882157223
-=======
-      spriteID: 9e59a8589f167794e88db6bdda0cf323
-      internalID: 38504999
->>>>>>> Stashed changes
       vertices: []
       indices: 
       edges: []
@@ -238,17 +173,10 @@ TextureImporter:
       name: complete pool_3
       rect:
         serializedVersion: 2
-<<<<<<< Updated upstream
         x: 64
         y: 112
         width: 16
         height: 16
-=======
-        x: 0
-        y: 43.333332
-        width: 42.666668
-        height: 42.666668
->>>>>>> Stashed changes
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -256,13 +184,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream
       spriteID: a0d0207eefe043140a55feb4a35bf2af
       internalID: 2069277126
-=======
-      spriteID: 7fdb1d8408978554aabc49fb7b9498a1
-      internalID: -1172949546
->>>>>>> Stashed changes
       vertices: []
       indices: 
       edges: []
@@ -271,17 +194,10 @@ TextureImporter:
       name: complete pool_4
       rect:
         serializedVersion: 2
-<<<<<<< Updated upstream
         x: 80
         y: 112
         width: 16
         height: 16
-=======
-        x: 42
-        y: 43.333332
-        width: 42.666668
-        height: 42.666668
->>>>>>> Stashed changes
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -289,13 +205,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream
       spriteID: e74bc6a9c0566ec459b6ba906fae74f5
       internalID: -409814275
-=======
-      spriteID: 930fef8b4ef74dc4f8af8a9a6aa24fa0
-      internalID: -1999801284
->>>>>>> Stashed changes
       vertices: []
       indices: 
       edges: []
@@ -304,17 +215,10 @@ TextureImporter:
       name: complete pool_5
       rect:
         serializedVersion: 2
-<<<<<<< Updated upstream
         x: 96
         y: 112
         width: 16
         height: 16
-=======
-        x: 84
-        y: 43.333332
-        width: 42.666668
-        height: 42.666668
->>>>>>> Stashed changes
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -322,13 +226,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream
       spriteID: 8e96d8002895a8b4aa2f7f978b4d6392
       internalID: 659970800
-=======
-      spriteID: f9152bfdce4a3d14c8e6c3dba1c57785
-      internalID: -1480888855
->>>>>>> Stashed changes
       vertices: []
       indices: 
       edges: []
@@ -338,15 +237,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-<<<<<<< Updated upstream
         y: 96
         width: 16
         height: 16
-=======
-        y: 1.3333321
-        width: 42.666668
-        height: 42.666668
->>>>>>> Stashed changes
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -354,13 +247,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream
       spriteID: dfedc12f5828ec44ea96643802fe923c
       internalID: -1587499334
-=======
-      spriteID: 0374956eeac24134ca301c74eb161a41
-      internalID: -1300709028
->>>>>>> Stashed changes
       vertices: []
       indices: 
       edges: []
@@ -369,17 +257,10 @@ TextureImporter:
       name: complete pool_7
       rect:
         serializedVersion: 2
-<<<<<<< Updated upstream
         x: 16
         y: 96
         width: 16
         height: 16
-=======
-        x: 42
-        y: 1.3333321
-        width: 42.666668
-        height: 42.666668
->>>>>>> Stashed changes
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -387,13 +268,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream
       spriteID: 40c488e5fc25c374cb780ad682ed7451
       internalID: 1577896719
-=======
-      spriteID: e47450d7d46e9ed4c922ed6abd173f5c
-      internalID: -1684998052
->>>>>>> Stashed changes
       vertices: []
       indices: 
       edges: []
@@ -402,7 +278,6 @@ TextureImporter:
       name: complete pool_8
       rect:
         serializedVersion: 2
-<<<<<<< Updated upstream
         x: 32
         y: 96
         width: 16
@@ -1352,12 +1227,6 @@ TextureImporter:
         y: 16
         width: 16
         height: 16
-=======
-        x: 84
-        y: 1.3333321
-        width: 42.666668
-        height: 42.666668
->>>>>>> Stashed changes
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1365,13 +1234,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-<<<<<<< Updated upstream
       spriteID: b3f722aa6ca2a98449e57186e05e5d82
       internalID: 648007219
-=======
-      spriteID: 00e4b073f5db7de46907ad0a152246df
-      internalID: 1573763536
->>>>>>> Stashed changes
       vertices: []
       indices: 
       edges: []
@@ -1387,7 +1251,6 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-<<<<<<< Updated upstream
       complete pool_6: -1587499334
       complete pool_28: 785945465
       complete pool_1: 1516024475
@@ -1444,20 +1307,6 @@ TextureImporter:
       complete pool_29: 1205215513
   spritePackingTag: 
   pSDRemoveMatte: 0
-=======
-      complete pool_6: -1300709028
-      complete pool_1: -1427574646
-      complete pool_8: 1573763536
-      complete pool_7: -1684998052
-      complete pool_5: -1480888855
-      complete pool_4: -1999801284
-      complete pool_3: -1172949546
-      complete pool_0: 442309670
-      complete pool_2: 38504999
-  spritePackingTag: 
-  pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
->>>>>>> Stashed changes
   userData: 
   assetBundleName: 
   assetBundleVariant: 
