@@ -20,6 +20,7 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
@@ -63,6 +64,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
   cookieLightType: 0
   platformSettings:
   - serializedVersion: 3
@@ -141,10 +143,10 @@ TextureImporter:
       name: complete red brick 1_1
       rect:
         serializedVersion: 2
-        x: 84
-        y: 213.33333
-        width: 42.666668
-        height: 42.666668
+        x: 85
+        y: 213
+        width: 43
+        height: 43
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -162,10 +164,10 @@ TextureImporter:
       name: complete red brick 1_2
       rect:
         serializedVersion: 2
-        x: 126
-        y: 213.33333
-        width: 42.666668
-        height: 42.666668
+        x: 127
+        y: 213
+        width: 43
+        height: 43
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -620,6 +622,27 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: complete red brick 1_24
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 0
+        width: 189
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a7c04aa1466ed849bfe88171beab8ac
+      internalID: 1474441972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -639,6 +662,7 @@ TextureImporter:
       complete red brick 1_19: -109651811
       complete red brick 1_5: -2034326802
       complete red brick 1_22: 1267503215
+      complete red brick 1_24: 1474441972
       complete red brick 1_3: 228737476
       complete red brick 1_23: -1132932571
       complete red brick 1_21: -170377926
@@ -657,7 +681,6 @@ TextureImporter:
       complete red brick 1_9: 1392605732
   spritePackingTag: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
