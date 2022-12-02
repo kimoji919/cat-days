@@ -30,7 +30,6 @@ public class Playercontroller : MonoBehaviour
     private float _x;
     private float _y;
 
-    public GameObject dialogControl;
     // Start is called before the first frame update
     void Start()
     {
@@ -75,7 +74,7 @@ public class Playercontroller : MonoBehaviour
                 NpcController npcController = hit.collider.GetComponent<NpcController>();
                 if (npcController)
                 {
-                    dialogControl.SetActive(true);
+                    npcController.DisplayDialog();
                 }
             }
         }
@@ -90,7 +89,7 @@ public class Playercontroller : MonoBehaviour
                 NpcController npcController = hit.collider.GetComponent<NpcController>();
                 if (npcController)
                 {
-                    dialogControl.SetActive(false);
+                    npcController.CloseDialog();
                 }
             }
 

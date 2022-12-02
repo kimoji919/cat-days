@@ -9,8 +9,8 @@ EditorBuildSettings:
     path: Assets/Scenes/map_1.unity
     guid: fe9cdd90e24e8924faba4ba2ba9d2fec
   - enabled: 1
-    path: Assets/Scenes/MhacAMole.unity
-    guid: a0b4bce21c683ef4db0fd4a55d3555ad
+    path: Assets/Scenes/map_0.unity
+    guid: 05fd553f791ba5f4fba2cac61df0711d
   - enabled: 1
     path: Assets/Scenes/cat-diary_1.unity
     guid: 1bd096fe74229234c86ae14729cdbf10
@@ -32,4 +32,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/cat-diary_4.unity
     guid: 3c0fdc1cf9df75e4fb91bf81e57f3bef
+  - enabled: 1
+    path: Assets/Scenes/DownStairs.unity
+    guid: 70c6b96284ca9974ea0746be6354788d
+  - enabled: 1
+    path: Assets/Scenes/dodge.unity
+    guid: 53bc948403049d2428fe19a2e3c558fb
+  - enabled: 1
+    path: Assets/Scenes/end.unity
+    guid: b3043a9f913546e40a40387dc020f632
   m_configObjects: {}
