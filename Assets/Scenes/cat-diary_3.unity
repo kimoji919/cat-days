@@ -505,7 +505,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3947a57224d189a4686df175cb3e126d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextMap: map_0
+  nextMap: map_3
   nextDiary: cat-diary_4
   lastDiary: cat-diary_3
   page: 3
@@ -679,7 +679,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 967a389df61b7b940918e2047f43bb7e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  letterPause: 0.2
+  letterPause: 0.1
 --- !u!114 &713106574
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -713,10 +713,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u5514,\u4ECA\u5929\u9047\u89C1\u4E00\u53EA\u65B0\u7684\u732B\uFF0C\u4E00\u53EA\u9ED1\u767D\u72F8\u82B1\uFF0C\u957F\u5F97\u597D\u6807\u5FD7\u54C7\u3002\u800C\u4E14\u597D\u4E56\uFF0C\u7ED9\u64B8\u7ED9\u62B1\u7ED9\u4EB2\u4EB2\u3002\n\n\u6211\u7ED9\u4ED6\u53D6\u540D\u53EB\u5965\u5229\u5965\u5468\u54E5\u53EB\u4ED6\u57AE\u8138\u56E0\u4E3A\u4ED6\u770B\u8D77\u6765\u603B\u662F\u5F88\u4E0D\u5F00\u5FC3\u7684\u4E9A\u5B50\uFF0C\u9AD8\u51B7\u5E93guy~\n\n\u5C31\u662F\u6709\u70B9\u592A\u7626\u4E86www
-    \u4EE5\u53CA\u6709\u70B9\u810F\n\n\u5509 \u8FD9\u4E48\u4E00\u60F3 \u771F\u7684\u5F88\u4E0D\u53EF\u601D\u8BAE\u5462
-    \u90A3\u4E48\u597D\u770B\u4E00\u53EA\u732B\u5C45\u7136\u4E5F\u8981\u6D41\u6D6A
-    \u6293\u8001\u9F20\u5403 www\u5B63\u767D\u4F60\u8981\u52A0\u6CB9\u54C7   "
+  m_Text: "\u574F\n\u5B8C\u5168\u4E0D\u77E5\u9053\u8BE5\u600E\u4E48\u5E2E\u4ED6\u3002\n\u90A3\u4E48\u5C0F\u4E00\u53EA\u732B\uFF0C\u662F\u600E\u4E48\u4E0A\u7684\u4E03\u697C\uFF0C\u53C8\u4ECE\u540C\u5B66\u7684\u9633\u53F0\u722C\u5230\u7A7A\u8C03\u5916\u673A\u4E0A\u5361\u7740\u3002\n\u81EA\u5DF1\u4E0B\u4E0D\u6765\uFF0C\u4EBA\u4E5F\u591F\u4E0D\u7740\u4ED6\uFF0C\u542C\u8BF4\u6709\u540C\u5B66\u7ED9\u4ED6\u8054\u7CFB\u4E86\u6C11\u95F4\u6551\u52A9\u961F\uFF0C\u4F46\u662F\u75AB\u60C5\u9632\u63A7\u4E0D\u8BA9\u4EBA\u8FDB......\n\u574F\n\u4E09\u4E2A\u5C0F\u65F6\uFF0C\u7136\u540E\u4ECE\u697C\u4E0A\u6389\u4E0B\u6765\u3002\n\u7830\n\u556A\n\u518D\u89C1\n\n"
 --- !u!1 &869403068
 GameObject:
   m_ObjectHideFlags: 0
@@ -884,7 +881,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 7329f94035c135a4280afc123aef8553, type: 3}
+  m_Sprite: {fileID: 21300000, guid: bcb4c841928991e4e91b42f31d035ba7, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1151,7 +1148,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: e15de6f8d935253448ee4e7709bd216c, type: 3}
+  m_Sprite: {fileID: 1637087193, guid: 36b90fbc78f137945ad77117bf0c7b66, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
