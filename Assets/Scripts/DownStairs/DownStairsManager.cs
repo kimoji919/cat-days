@@ -51,6 +51,11 @@ public class DownStairsManager : MonoBehaviour
     {
         randomTime = Random.Range(minRandomTime, maxRandomTime);
         _playerController = player.GetComponent<DownStairsPlayerController>();
+        if (GameObject.Find("Data"))
+        {
+            GameObject.Find("Data").GetComponent<DataController>().Down_Record = true;
+            GameObject.Find("Data").GetComponent<DataController>().Down_Score = 0;
+        }
     }
 
     // Update is called once per frame
@@ -67,6 +72,14 @@ public class DownStairsManager : MonoBehaviour
             {
                 GenerateGround();
                 groundCount++;
+            }
+            if (_instance._playerController.scorePoint > endScore + 5f)
+            {
+                ShowGamePanel();
+                if (GameObject.Find("Data"))
+                {
+                    GameObject.Find("Data").GetComponent<DataController>().Down_PE = true;
+                }
             }
         }
 
@@ -159,5 +172,6 @@ public class DownStairsManager : MonoBehaviour
     public void QuitGame()
     {
         SceneManager.LoadScene(GameScene);
+        Destroy(GameObject.Find("SoundManager"));
     }
 }

@@ -10,6 +10,10 @@ TagManager:
   - Mole
   - CM
   - Ground
+  - Fan
+  - Trap
+  - PickupObject
+  - Data
   layers:
   - Default
   - TransparentFX

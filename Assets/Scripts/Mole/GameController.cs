@@ -25,6 +25,11 @@ public class GameController : MonoBehaviour
     {
         initMap(); 
         InvokeRepeating("MoleAppear",0.2f,1);
+        if(GameObject.Find("Data"))
+        {
+            GameObject.Find("Data").GetComponent<DataController>().Mole_Record = true;
+            GameObject.Find("Data").GetComponent<DataController>().Mole_Score = 0;
+        }
     }
 
     // Update is called once per frame
