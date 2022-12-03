@@ -40,6 +40,20 @@ public class DiaryController : MonoBehaviour
                 nextJiantou.SetActive(true);
             }
         }
+        if (page == 4)
+        {
+            if (GameObject.Find("Data").GetComponent<DataController>().Down_Record)
+            {
+                nextJiantou.SetActive(true);
+            }
+        }
+        if (page == 5)
+        {
+            if (GameObject.Find("Data").GetComponent<DataController>().Down_Record)
+            {
+                nextJiantou.SetActive(true);
+            }
+        }
     }
     public void PictureBotton()
     {

@@ -401,7 +401,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 967a389df61b7b940918e2047f43bb7e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  letterPause: 0.2
+  letterPause: 0.1
 --- !u!114 &713106574
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1150,6 +1150,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 869403072}
     m_Modifications:
+    - target: {fileID: 5317831057185648865, guid: 76302816a53e84d4aa7067bdc695d336, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 323026428, guid: 0d5e8fd3ea81dc649a803061d4c20d23, type: 3}
     - target: {fileID: 5317831057185648876, guid: 76302816a53e84d4aa7067bdc695d336, type: 3}
       propertyPath: m_Name
       value: nextDiary

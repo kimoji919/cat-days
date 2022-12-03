@@ -265,6 +265,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 869403072}
     m_Modifications:
+    - target: {fileID: 5317831057185648865, guid: 76302816a53e84d4aa7067bdc695d336, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 323026428, guid: 0d5e8fd3ea81dc649a803061d4c20d23, type: 3}
     - target: {fileID: 5317831057185648876, guid: 76302816a53e84d4aa7067bdc695d336, type: 3}
       propertyPath: m_Name
       value: nextDiary
@@ -507,7 +511,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nextMap: map_3
   nextDiary: cat-diary_4
-  lastDiary: cat-diary_3
+  lastDiary: cat-diary_2
   page: 3
   nextJiantou: {fileID: 260312859}
 --- !u!1001 &657706404
@@ -601,6 +605,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1837539874025417897, guid: 694e6a5e907b3b44fba576696952cd3a, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -1113393843, guid: 0d5e8fd3ea81dc649a803061d4c20d23, type: 3}
     - target: {fileID: 3766812069508495793, guid: 694e6a5e907b3b44fba576696952cd3a, type: 3}
       propertyPath: m_Name
       value: lastDiary
@@ -713,7 +721,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u574F\n\u5B8C\u5168\u4E0D\u77E5\u9053\u8BE5\u600E\u4E48\u5E2E\u4ED6\u3002\n\u90A3\u4E48\u5C0F\u4E00\u53EA\u732B\uFF0C\u662F\u600E\u4E48\u4E0A\u7684\u4E03\u697C\uFF0C\u53C8\u4ECE\u540C\u5B66\u7684\u9633\u53F0\u722C\u5230\u7A7A\u8C03\u5916\u673A\u4E0A\u5361\u7740\u3002\n\u81EA\u5DF1\u4E0B\u4E0D\u6765\uFF0C\u4EBA\u4E5F\u591F\u4E0D\u7740\u4ED6\uFF0C\u542C\u8BF4\u6709\u540C\u5B66\u7ED9\u4ED6\u8054\u7CFB\u4E86\u6C11\u95F4\u6551\u52A9\u961F\uFF0C\u4F46\u662F\u75AB\u60C5\u9632\u63A7\u4E0D\u8BA9\u4EBA\u8FDB......\n\u574F\n\u4E09\u4E2A\u5C0F\u65F6\uFF0C\u7136\u540E\u4ECE\u697C\u4E0A\u6389\u4E0B\u6765\u3002\n\u7830\n\u556A\n\u518D\u89C1\n\n"
+  m_Text: "\u574F\uFF0C\u5B8C\u5168\u4E0D\u77E5\u9053\u8BE5\u600E\u4E48\u5E2E\u4ED6\u3002\n\u90A3\u4E48\u5C0F\u4E00\u53EA\u732B\uFF0C\u662F\u600E\u4E48\u4E0A\u7684\u4E03\u697C\uFF0C\u53C8\u4ECE\u540C\u5B66\u7684\u9633\u53F0\u722C\u5230\u7A7A\u8C03\u5916\u673A\u4E0A\u5361\u7740\u3002\n\u81EA\u5DF1\u4E0B\u4E0D\u6765\uFF0C\u4EBA\u4E5F\u591F\u4E0D\u7740\u4ED6\uFF0C\u542C\u8BF4\u6709\u540C\u5B66\u7ED9\u4ED6\u8054\u7CFB\u4E86\u6C11\u95F4\u6551\u52A9\u961F\uFF0C\u4F46\u662F\u75AB\u60C5\u9632\u63A7\u4E0D\u8BA9\u4EBA\u8FDB......\n\u574F\n\u4E09\u4E2A\u5C0F\u65F6\uFF0C\u7136\u540E\u4ECE\u697C\u4E0A\u6389\u4E0B\u6765\u3002\n\u7830\n\u556A\n\u518D\u89C1\n\n"
 --- !u!1 &869403068
 GameObject:
   m_ObjectHideFlags: 0

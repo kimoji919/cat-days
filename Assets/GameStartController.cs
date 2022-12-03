@@ -33,6 +33,6 @@ public class GameStartController : MonoBehaviour
     public void OnclickGame()
     {
         Box.SetActive(false);
-        SceneManager.LoadScene(0);//GetActive获取当前Scene
+        SceneManager.LoadScene(1);//GetActive获取当前Scene
     }
 }

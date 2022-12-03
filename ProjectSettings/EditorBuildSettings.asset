@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/maingame.unity
+    guid: 59949fe103764c140a76671dd7b218e6
+  - enabled: 1
     path: Assets/Scenes/map_1.unity
     guid: a468ae401c380ea408b3fc741c0dcdc5
   - enabled: 1
@@ -41,4 +44,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MhacAMole.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/cat-diary_5.unity
+    guid: 814f6c10fd3d36349a9936df012a8057
+  - enabled: 1
+    path: Assets/Scenes/map_5.unity
+    guid: d686702759fbd9e46a48b44e461823b2
+  - enabled: 1
+    path: Assets/Scenes/cat-diary_6.unity
+    guid: 2bd5b7d49b1b85341a8ecc9b3efd3409
   m_configObjects: {}
