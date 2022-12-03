@@ -4,7 +4,7 @@ using System.Collections;
 
 public class CharForeach : MonoBehaviour
 {
-    public float letterPause = 1f;
+    public float letterPause = 0.5f;
     private string word;
     private Text text;
 
