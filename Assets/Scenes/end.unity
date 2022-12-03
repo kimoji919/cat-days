@@ -688,7 +688,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf4da67343efc064f84748752b58c695, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GameScene: cat-diary_1
+  GameScene: cat-diary_2
 --- !u!1 &1962718693
 GameObject:
   m_ObjectHideFlags: 0

@@ -42,5 +42,9 @@ public class Mole : MonoBehaviour
         Destroy(gameObject);
         score ++;
         scoreText.text = "Score：" + score;
+        if(GameObject.Find("Data"))
+        {
+            GameObject.Find("Data").GetComponent<DataController>().Mole_Score ++;
+        }
     }
 }

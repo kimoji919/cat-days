@@ -96,6 +96,10 @@ public class DownStairsPlayerController : MonoBehaviour
     {
         scorePoint += Time.deltaTime;
         ScoreText.text = scorePoint.ToString(CultureInfo.CurrentCulture);
+        if(GameObject.Find("Data"))
+        {
+            GameObject.Find("Data").GetComponent<DataController>().Down_Score += Time.deltaTime;
+        }
     }
 
     /**
