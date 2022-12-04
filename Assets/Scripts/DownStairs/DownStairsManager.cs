@@ -173,6 +173,5 @@ public class DownStairsManager : MonoBehaviour
     {
         SceneManager.LoadScene(GameScene);
         Destroy(GameObject.Find("SoundManager"));
-        Time.timeScale = 1;
     }
 }

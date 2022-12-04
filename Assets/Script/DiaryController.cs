@@ -35,6 +35,7 @@ public class DiaryController : MonoBehaviour
         }
         if (page == 3)
         {
+            Time.timeScale = 1.0f;
             if (GameObject.Find("Data").GetComponent<DataController>().Down_Record)
             {
                 nextJiantou.SetActive(true);
