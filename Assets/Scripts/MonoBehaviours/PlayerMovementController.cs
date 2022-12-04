@@ -47,7 +47,7 @@ public class PlayerMovementController : MonoBehaviour
             movDir.x = 0.0f;
             movDir.y = 0.0f;
         }
-        player.healthPoints -= 0.05f;
+        // player.healthPoints -= 0.05f;
         rb2d.velocity = moveSpeed * movDir;
     }
 
