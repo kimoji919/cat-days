@@ -14,7 +14,7 @@ public class DialogController : MonoBehaviour
 
     [Header("小游戏的Scene名称")]public string GameScene;
 
-
+    [Header("下一个的dialog名称")] public GameObject Nextdialog;
     // Start is called before the first frame update
     void Start()
     {
@@ -36,5 +36,10 @@ public class DialogController : MonoBehaviour
     {
         Box.SetActive(false);
         SceneManager.LoadScene(GameScene);
+    }
+    public void Onclicknext()
+    {
+        Box.SetActive(false);
+        Nextdialog.SetActive(true);
     }
 }
