@@ -181,7 +181,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "11.20    \u6674\n"
+  m_text: "11.25    \u6674\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 778de3686b3d00d4083845b36436e7c1, type: 2}
   m_sharedMaterial: {fileID: 5322205562212740379, guid: 778de3686b3d00d4083845b36436e7c1, type: 2}
@@ -435,10 +435,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u5514,\u4ECA\u5929\u9047\u89C1\u4E00\u53EA\u65B0\u7684\u732B\uFF0C\u4E00\u53EA\u9ED1\u767D\u72F8\u82B1\uFF0C\u957F\u5F97\u597D\u6807\u5FD7\u54C7\u3002\u800C\u4E14\u597D\u4E56\uFF0C\u7ED9\u64B8\u7ED9\u62B1\u7ED9\u4EB2\u4EB2\u3002\n\n\u6211\u7ED9\u4ED6\u53D6\u540D\u53EB\u5965\u5229\u5965\u5468\u54E5\u53EB\u4ED6\u57AE\u8138\u56E0\u4E3A\u4ED6\u770B\u8D77\u6765\u603B\u662F\u5F88\u4E0D\u5F00\u5FC3\u7684\u4E9A\u5B50\uFF0C\u9AD8\u51B7\u5E93guy~\n\n\u5C31\u662F\u6709\u70B9\u592A\u7626\u4E86www
-    \u4EE5\u53CA\u6709\u70B9\u810F\n\n\u5509 \u8FD9\u4E48\u4E00\u60F3 \u771F\u7684\u5F88\u4E0D\u53EF\u601D\u8BAE\u5462
-    \u90A3\u4E48\u597D\u770B\u4E00\u53EA\u732B\u5C45\u7136\u4E5F\u8981\u6D41\u6D6A
-    \u6293\u8001\u9F20\u5403 www\u5B63\u767D\u4F60\u8981\u52A0\u6CB9\u54C7   "
+  m_Text: "\u73C2\u73C2\u4E00\u7559\u5728\u5B81\u8FDC\u697C\u5C31\u662F\u4E00\u5E74\u3002\r\n\r\u5B81\u8FDC\u697C\u7684\u7814\u7A76\u751F\u51E0\u4E4E\u6CA1\u6709\u4E0D\u8BA4\u8BC6\u4ED6\u7684\uFF0C\u4E5F\u6CA1\u6709\u4E0D\u7231\u4ED6\u7684\u3002\u9676\u963F\u59E8\u4EB2\u5207\u5730\u79F0\u547C\u73C2\u73C2\u4E3A\u5B81\u8FDC\u697C\u7684\u201C\u7814\u7A76\u751F\u732B\u201D\u3002\u67EF\u67EF\u5B88\u7740\u5B81\u8FDC\u697C\uFF0C\u4ECE\u4E0A\u6D77\u75AB\u60C5\u7206\u53D1\uFF0C\u5374\u6CA1\u7B49\u5230\u4E0A\u6D77\u75AB\u60C5\u7ED3\u675F\u3002\r\n\r\u6211\u5E38\u5E38\u89C9\u5F97\u73C2\u73C2\u662F\u901A\u4EBA\u6027\u7684\n\u75AB\u60C5\u5F00\u59CB\uFF0C\u7531\u4E8E\u75AB\u60C5\u9632\u63A7\u89C4\u5B9A\uFF0C\u5B66\u751F\u4EEC\u4E0D\u80FD\u4E0E\u6D41\u6D6A\u732B\u63A5\u89E6\u8FC7\u591A\u3002\n\u9ED1\u5F97\u53D1\u4EAE\u7684\u73C2\u73C2\u4E5F\u5F88\u5C11\u55B5\u53EB\uFF0C\u548C\u6211\u4EEC\u4FDD\u6301\u6700\u8212\u9002\u7684\u8DDD\u79BB\u3002\u8BF4\u8D77\u6765\uFF0C\u6211\u5DF2\u7ECF\u5F88\u4E45\u6CA1\u6709\u62B1\u8FC7\u67EF\u67EF\u4E86\u3002\n\u5F00\u5FC3\u70B9\u5427\uFF0C\u73C2\u73C2\u53BB\u4E86\u4E00\u4E2A\u6CA1\u6709\u75AB\u60C5\uFF0C\u6CA1\u6709\u6D88\u6BD2\u6C34\uFF0C\u4E5F\u6CA1\u6709\u4F24\u75C5\u7684\u5730\u65B9\n\u4ED6...\u4F1A\u5E26\u7740\u6211\u4EEC\u7684\u601D\u5FF5\n\u5728\u4E0B\u4E2A\u8F6E\u56DE\u91CC\u5E78\u798F\n\n"
 --- !u!1 &869403068
 GameObject:
   m_ObjectHideFlags: 0
@@ -646,7 +643,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 7329f94035c135a4280afc123aef8553, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f3e3c5b96dff6b54d894b11015a1c3cb, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -999,7 +996,8 @@ MonoBehaviour:
   lastDiary: cat-diary_3
   page: 4
   nextJiantou: {fileID: 1018300351}
-  text: {fileID: 0}
+  text: {fileID: 713106569}
+  "\u63D0\u793A": {fileID: 0}
 --- !u!4 &1169887926
 Transform:
   m_ObjectHideFlags: 0
@@ -1208,7 +1206,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: e15de6f8d935253448ee4e7709bd216c, type: 3}
+  m_Sprite: {fileID: -754477800, guid: 36b90fbc78f137945ad77117bf0c7b66, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

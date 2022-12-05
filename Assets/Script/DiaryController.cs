@@ -10,6 +10,8 @@ public class DiaryController : MonoBehaviour
     [Header("上一个diary名称")] public string lastDiary;
     [Header("当前第几页")] public int page;
     [Header("下一页的箭头")] public GameObject nextJiantou;
+    public GameObject text;
+    public GameObject 提示;
     // Start is called before the first frame update
     void Start()
     {
@@ -18,6 +20,13 @@ public class DiaryController : MonoBehaviour
             if (GameObject.Find("Data").GetComponent<DataController>().Mole_Record)
             {
                 nextJiantou.SetActive(true);
+                text.SetActive(true);
+                提示.SetActive(false);
+                if(GameObject.Find("Data").GetComponent<DataController>().Dodge_Record)
+                {
+                    text.GetComponent<CharForeach>().enabled = false;
+                }
+
             }
         }
         if (page == 2)
@@ -25,6 +34,11 @@ public class DiaryController : MonoBehaviour
             if (GameObject.Find("Data").GetComponent<DataController>().Dodge_Record)
             {
                 nextJiantou.SetActive(true);
+                text.SetActive(true);
+                if (GameObject.Find("Data").GetComponent<DataController>().Down_Record)
+                {
+                    text.GetComponent<CharForeach>().enabled = false;
+                }
             }
         }
         if (page == 3)
@@ -33,6 +47,11 @@ public class DiaryController : MonoBehaviour
             if (GameObject.Find("Data").GetComponent<DataController>().Down_Record)
             {
                 nextJiantou.SetActive(true);
+                text.SetActive(true);
+                if (GameObject.Find("Data").GetComponent<DataController>().Map4_Record)
+                {
+                    text.GetComponent<CharForeach>().enabled = false;
+                }
             }
         }
         if (page == 4)
@@ -40,6 +59,11 @@ public class DiaryController : MonoBehaviour
             if (GameObject.Find("Data").GetComponent<DataController>().Map4_Record)
             {
                 nextJiantou.SetActive(true);
+                text.SetActive(true);
+                if (GameObject.Find("Data").GetComponent<DataController>().Map5_Record)
+                {
+                    text.GetComponent<CharForeach>().enabled = false;
+                }
             }
         }
         if (page == 5)
@@ -47,6 +71,7 @@ public class DiaryController : MonoBehaviour
             if (GameObject.Find("Data").GetComponent<DataController>().Map5_Record)
             {
                 nextJiantou.SetActive(true);
+                text.SetActive(true);
             }
         }
     }

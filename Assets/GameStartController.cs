@@ -12,7 +12,7 @@ public class GameStartController : MonoBehaviour
 
     public GameObject Box;
 
-
+    public string name;
     // Start is called before the first frame update
     void Start()
     {
@@ -33,6 +33,6 @@ public class GameStartController : MonoBehaviour
     public void OnclickGame()
     {
         Box.SetActive(false);
-        SceneManager.LoadScene(1);//GetActive获取当前Scene
+        SceneManager.LoadScene(name);//GetActive获取当前Scene
     }
 }

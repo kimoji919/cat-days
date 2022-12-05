@@ -292,7 +292,8 @@ MonoBehaviour:
   lastDiary: cat-diary_4
   page: 4
   nextJiantou: {fileID: 1686219672}
-  text: {fileID: 0}
+  text: {fileID: 713106569}
+  "\u63D0\u793A": {fileID: 0}
 --- !u!4 &175245327
 Transform:
   m_ObjectHideFlags: 0
@@ -410,7 +411,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &713106570
 RectTransform:
   m_ObjectHideFlags: 0
@@ -485,10 +486,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u5514,\u4ECA\u5929\u9047\u89C1\u4E00\u53EA\u65B0\u7684\u732B\uFF0C\u4E00\u53EA\u9ED1\u767D\u72F8\u82B1\uFF0C\u957F\u5F97\u597D\u6807\u5FD7\u54C7\u3002\u800C\u4E14\u597D\u4E56\uFF0C\u7ED9\u64B8\u7ED9\u62B1\u7ED9\u4EB2\u4EB2\u3002\n\n\u6211\u7ED9\u4ED6\u53D6\u540D\u53EB\u5965\u5229\u5965\u5468\u54E5\u53EB\u4ED6\u57AE\u8138\u56E0\u4E3A\u4ED6\u770B\u8D77\u6765\u603B\u662F\u5F88\u4E0D\u5F00\u5FC3\u7684\u4E9A\u5B50\uFF0C\u9AD8\u51B7\u5E93guy~\n\n\u5C31\u662F\u6709\u70B9\u592A\u7626\u4E86www
-    \u4EE5\u53CA\u6709\u70B9\u810F\n\n\u5509 \u8FD9\u4E48\u4E00\u60F3 \u771F\u7684\u5F88\u4E0D\u53EF\u601D\u8BAE\u5462
-    \u90A3\u4E48\u597D\u770B\u4E00\u53EA\u732B\u5C45\u7136\u4E5F\u8981\u6D41\u6D6A
-    \u6293\u8001\u9F20\u5403 www\u5B63\u767D\u4F60\u8981\u52A0\u6CB9\u54C7   "
+  m_Text: "\u5965\u5229\u5965\u6700\u540E\u8FD8\u662F\u6CA1\u6709\u6551\u56DE\u6765\u3002\n\n\u660E\u660E\u6628\u5929\u90FD\u80FD\u5403\u4E00\u70B9\u732B\u7CAE\uFF0C\u53EF\u4EE5.....\n\n\u7B97\u4E86\u5427\uFF0C\u5B63\u767D\uFF0C\u4F60\u6551\u4E0D\u4E86\u4ED6\u4EEC\u7684.......\n\n\u5C31\uFF0C\u5230\u6B64\u4E3A\u6B62\u5427."
 --- !u!1 &869403068
 GameObject:
   m_ObjectHideFlags: 0
@@ -810,7 +808,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 7329f94035c135a4280afc123aef8553, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a5d5f08dfe0d3e14080b5e986119b22d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1077,7 +1075,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: e15de6f8d935253448ee4e7709bd216c, type: 3}
+  m_Sprite: {fileID: -1340320956, guid: 36b90fbc78f137945ad77117bf0c7b66, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

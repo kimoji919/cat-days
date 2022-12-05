@@ -13,11 +13,11 @@ public class 对话控制器 : MonoBehaviour
     [Header("开局dialog")] public GameObject firstdialog;
     [Header("下一个的dialog名称")] public GameObject Nextdialog;
     public bool isfirstdialog;
-   
+    public int time;
     // Start is called before the first frame update
     void Start()
     {
-        Invoke("Show", 2);
+        Invoke("Show", time);
     }
     void Show()
     {
