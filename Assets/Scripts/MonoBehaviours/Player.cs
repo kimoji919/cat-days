@@ -92,7 +92,7 @@ public class Player : Character
                             aSource.Play();
                         }
                         playerInventory.AddItem(hitObject);
-                        break;
+                        return;
                     case Item.ItemType.WATERBALL:
                         if (pickOtherAudio != null)
                         {
@@ -100,7 +100,7 @@ public class Player : Character
                             aSource.Play();
                         }
                         playerInventory.AddItem(hitObject);
-                        break;
+                        return;
                     default:
                         break;
                 }
