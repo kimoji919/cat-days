@@ -470,7 +470,6 @@ MonoBehaviour:
   lastDiary: 
   page: 1
   nextJiantou: {fileID: 1308097093}
-  text: {fileID: 713106569}
 --- !u!4 &838417529
 Transform:
   m_ObjectHideFlags: 0
@@ -1026,6 +1025,7 @@ MonoBehaviour:
   Dodge_Score: 0
   Dodge_Record: 1
   Dodge_PE: 1
+  Map4_Record: 1
 --- !u!4 &1408914295
 Transform:
   m_ObjectHideFlags: 0

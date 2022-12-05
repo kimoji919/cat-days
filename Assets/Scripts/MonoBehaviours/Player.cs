@@ -84,7 +84,7 @@ public class Player : Character
                         //AdjustStaminaPoints(hitObject.amount);
                         break;
                     case Item.ItemType.COMMONBALL:
-                        break;
+                        return;
                     case Item.ItemType.FIREBALL:
                         if (pickOtherAudio != null)
                         {

@@ -13,12 +13,6 @@ public class DiaryController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
         if (page == 1)
         {
             if (GameObject.Find("Data").GetComponent<DataController>().Mole_Record)
@@ -43,17 +37,30 @@ public class DiaryController : MonoBehaviour
         }
         if (page == 4)
         {
-            if (GameObject.Find("Data").GetComponent<DataController>().Down_Record)
+            if (GameObject.Find("Data").GetComponent<DataController>().Map4_Record)
             {
                 nextJiantou.SetActive(true);
             }
         }
         if (page == 5)
         {
-            if (GameObject.Find("Data").GetComponent<DataController>().Down_Record)
+            if (GameObject.Find("Data").GetComponent<DataController>().Map5_Record)
             {
                 nextJiantou.SetActive(true);
             }
+        }
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        if(page == 4)
+        {
+            GameObject.Find("Data").GetComponent<DataController>().Map4_Record = true;
+        }
+        if (page == 5)
+        {
+            GameObject.Find("Data").GetComponent<DataController>().Map5_Record = true;
         }
     }
     public void PictureBotton()
