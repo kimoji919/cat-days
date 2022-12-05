@@ -57,7 +57,7 @@ public class Move : MonoBehaviour
     //碰撞后结束游戏
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.name != "Bound")
+        if (collision.gameObject.name != "bound")
         {
             Debug.Log("enter");
             SceneManager.LoadScene("end");
