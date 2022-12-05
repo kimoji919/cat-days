@@ -5,9 +5,9 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
-    path: Assets/Scenes/maingame.unity
-    guid: 59949fe103764c140a76671dd7b218e6
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/map_1.unity
     guid: a468ae401c380ea408b3fc741c0dcdc5
@@ -53,4 +53,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/cat-diary_6.unity
     guid: 2bd5b7d49b1b85341a8ecc9b3efd3409
+  - enabled: 1
+    path: Assets/Scenes/Maingame.unity
+    guid: b8de4eeeeaef8ed4daec1bf627de2a56
   m_configObjects: {}

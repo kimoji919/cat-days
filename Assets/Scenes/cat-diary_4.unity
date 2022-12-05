@@ -451,6 +451,8 @@ GameObject:
   - component: {fileID: 869403071}
   - component: {fileID: 869403070}
   - component: {fileID: 869403069}
+  - component: {fileID: 869403074}
+  - component: {fileID: 869403073}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -547,6 +549,44 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &869403073
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 869403068}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: fa72f59d908c7334b8d706169ea33331, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &869403074
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 869403068}
+  m_CullTransparentMesh: 1
 --- !u!1 &1016748911
 GameObject:
   m_ObjectHideFlags: 0
@@ -773,11 +813,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5317831057185648879, guid: 76302816a53e84d4aa7067bdc695d336, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 498
+      value: 404.67
       objectReference: {fileID: 0}
     - target: {fileID: 5317831057185648879, guid: 76302816a53e84d4aa7067bdc695d336, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -212
+      value: -240
       objectReference: {fileID: 0}
     - target: {fileID: 5317831057185648879, guid: 76302816a53e84d4aa7067bdc695d336, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -876,11 +916,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 633982598476899157, guid: 694e6a5e907b3b44fba576696952cd3a, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -498
+      value: -409.66
       objectReference: {fileID: 0}
     - target: {fileID: 633982598476899157, guid: 694e6a5e907b3b44fba576696952cd3a, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -220
+      value: -240
       objectReference: {fileID: 0}
     - target: {fileID: 633982598476899157, guid: 694e6a5e907b3b44fba576696952cd3a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -959,6 +999,7 @@ MonoBehaviour:
   lastDiary: cat-diary_3
   page: 4
   nextJiantou: {fileID: 1018300351}
+  text: {fileID: 0}
 --- !u!4 &1169887926
 Transform:
   m_ObjectHideFlags: 0
