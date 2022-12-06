@@ -290,7 +290,7 @@ MonoBehaviour:
   nextMap: map_5
   nextDiary: cat-diary_6
   lastDiary: cat-diary_4
-  page: 4
+  page: 5
   nextJiantou: {fileID: 1686219672}
   text: {fileID: 713106569}
   "\u63D0\u793A": {fileID: 0}
