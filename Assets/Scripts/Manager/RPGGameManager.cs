@@ -69,7 +69,7 @@ public class RPGGameManager : MonoBehaviour
         Time.timeScale = 0;
     }
 
-    public void LoadNextLevel(int index)
+    public void LoadNextLevel(string index)
     {
         Time.timeScale = 1;
         SceneManager.LoadScene(index);
