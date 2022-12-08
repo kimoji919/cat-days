@@ -31,10 +31,10 @@ public class Wander : MonoBehaviour
         Debug.DrawLine(transform.position,endPointPositon,Color.red);
     }
 
-    private void OnDrawGizmos()
+/*    private void OnDrawGizmos()
     {
         Gizmos.DrawWireSphere(transform.position,circle.radius);
-    }
+    }*/
     IEnumerator WanderCoroutine()
     {
         while (true)

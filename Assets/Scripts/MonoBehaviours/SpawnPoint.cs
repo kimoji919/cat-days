@@ -5,6 +5,7 @@ using UnityEngine;
 public class SpawnPoint : MonoBehaviour
 {
     public GameObject prefabToSpawn;
+    public GameObject[] viruses;
     public float delayTime = 0.0f;
     public float repeatInterval = 1.0f;
     public int numToSpawn = 1;
@@ -22,6 +23,17 @@ public class SpawnPoint : MonoBehaviour
     }
     GameObject SpawnObject()
     {
+        if (prefabToSpawn && prefabToSpawn.CompareTag("Enemy"))
+        {
+            int VirusIndex = Random.Range(0, viruses.Length);
+            GameObject prefabObject = Instantiate(viruses[VirusIndex], transform.position, Quaternion.identity);
+            numCount++;
+            if (numCount >= numToSpawn)
+            {
+                CancelInvoke("SpawnObject");
+            }
+            return prefabObject;
+        }
         if (prefabToSpawn)
         {
             GameObject prefabObject = Instantiate(prefabToSpawn,transform.position,Quaternion.identity);

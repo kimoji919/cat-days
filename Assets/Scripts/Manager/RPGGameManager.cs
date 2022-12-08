@@ -7,7 +7,6 @@ public class RPGGameManager : MonoBehaviour
     public static RPGGameManager sharedInstance = null;
     public GameObject winPanel;
     public GameObject losePanel;
-    public GameObject dialog;
     private AudioSource aSource;
     public AudioClip backgroundMusic;
     public AudioClip winAudio;
