@@ -27,7 +27,7 @@ EditorBuildSettings:
     path: Assets/Scenes/cat-diary_3.unity
     guid: 5837856890724fa49b0b94e58d196343
   - enabled: 1
-    path: Assets/Scenes/map_4_1.unity
+    path: Assets/Scenes/map_4.unity
     guid: 3dc3f7d6b49971749ba89928425f50ec
   - enabled: 1
     path: Assets/Scenes/cat-diary_4.unity
