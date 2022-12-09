@@ -20,6 +20,7 @@ public class DataController : MonoBehaviour
     [Header("是否玩过躲避车层")] public bool Dodge_Record = false;
     [Header("躲避车层是否完美结局")] public bool Dodge_PE = false;
     [Header("第四关记录")] public bool Map4_Record = false;
+    [Header("第四关是否完美结局")] public bool Map4_PE = false;
     [Header("第五关记录")] public bool Map5_Record = false;
     [Header("第五关是否完美结局")] public bool Map5_PE = false;
 

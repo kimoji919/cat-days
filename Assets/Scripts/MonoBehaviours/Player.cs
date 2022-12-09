@@ -64,21 +64,21 @@ public class Player : Character
                         }
                         break;
                     case Item.ItemType.HEALTH:
-                        if (pickOtherAudio != null)
-                        {
-                            aSource.clip = pickOtherAudio;
-                            aSource.Play();
-                        }
+                        //if (pickOtherAudio != null)
+                        //{
+                            //aSource.clip = pickOtherAudio;
+                            //aSource.Play();
+                        //}
                         //hitObject.quantity += 1;
                         playerInventory.AddItem(hitObject);
                         //AdjustHealthPoints(hitObject.amount);
                         break;
                     case Item.ItemType.STAMINA:
-                        if (pickOtherAudio != null)
-                        {
-                            aSource.clip = pickOtherAudio;
-                            aSource.Play();
-                        }
+                        //if (pickOtherAudio != null)
+                        //{
+                          //  aSource.clip = pickOtherAudio;
+                           // aSource.Play();
+                        //}
                         // hitObject.quantity += 1;
                         playerInventory.AddItem(hitObject);
                         //AdjustStaminaPoints(hitObject.amount);
@@ -86,19 +86,19 @@ public class Player : Character
                     case Item.ItemType.COMMONBALL:
                         return;
                     case Item.ItemType.FIREBALL:
-                        if (pickOtherAudio != null)
-                        {
-                            aSource.clip = pickOtherAudio;
-                            aSource.Play();
-                        }
+                        //if (pickOtherAudio != null)
+                        //{
+                          //  aSource.clip = pickOtherAudio;
+                           // aSource.Play();
+                        //}
                         playerInventory.AddItem(hitObject);
                         return;
                     case Item.ItemType.WATERBALL:
-                        if (pickOtherAudio != null)
-                        {
-                            aSource.clip = pickOtherAudio;
-                            aSource.Play();
-                        }
+                        //if (pickOtherAudio != null)
+                        //{
+                          //  aSource.clip = pickOtherAudio;
+                            //aSource.Play();
+                        //}
                         playerInventory.AddItem(hitObject);
                         return;
                     default:

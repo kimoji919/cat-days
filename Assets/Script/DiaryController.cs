@@ -101,7 +101,7 @@ public class DiaryController : MonoBehaviour
             if (GameObject.Find("Data").GetComponent<DataController>().Map4_Record)
             {
                 nextJiantou.SetActive(true);
-                if (GameObject.Find("Data").GetComponent<DataController>().Map4_Record)
+                if (GameObject.Find("Data").GetComponent<DataController>().Map4_PE)
                 {
                     text.SetActive(false);
                     newtext.SetActive(true);
@@ -114,6 +114,7 @@ public class DiaryController : MonoBehaviour
                 {
                     text.SetActive(true);
                 }
+
                 if (GameObject.Find("Data").GetComponent<DataController>().Map5_Record)
                 {
                     text.GetComponent<CharForeach>().enabled = false;

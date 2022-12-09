@@ -1,13 +1,5 @@
 fileFormatVersion: 2
-<<<<<<< Updated upstream
-guid: cf154f3ca8979e54f9aee475714340ec
-=======
-<<<<<<< HEAD
-guid: 3db64522bbec94943b61fe0363c80803
-=======
-guid: cf154f3ca8979e54f9aee475714340ec
->>>>>>> 6451d89499483cb01bd49259d567a2a232458c77
->>>>>>> Stashed changes
+guid: 0bc050cbbaf898f4e8d07e9b3527967b
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -28,13 +20,6 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
-    flipGreenChannel: 0
-=======
->>>>>>> 6451d89499483cb01bd49259d567a2a232458c77
->>>>>>> Stashed changes
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
@@ -78,13 +63,6 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
-  swizzle: 50462976
-=======
->>>>>>> 6451d89499483cb01bd49259d567a2a232458c77
->>>>>>> Stashed changes
   cookieLightType: 0
   platformSettings:
   - serializedVersion: 3
@@ -123,11 +101,18 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
-=======
->>>>>>> Stashed changes
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
     maxTextureSize: 2048
@@ -140,10 +125,6 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-<<<<<<< Updated upstream
-=======
->>>>>>> 6451d89499483cb01bd49259d567a2a232458c77
->>>>>>> Stashed changes
   spriteSheet:
     serializedVersion: 2
     sprites: []
@@ -160,14 +141,7 @@ TextureImporter:
     nameFileIdTable: {}
   spritePackingTag: 
   pSDRemoveMatte: 0
-<<<<<<< Updated upstream
   pSDShowRemoveMatteOption: 0
-=======
-<<<<<<< HEAD
-=======
-  pSDShowRemoveMatteOption: 0
->>>>>>> 6451d89499483cb01bd49259d567a2a232458c77
->>>>>>> Stashed changes
   userData: 
   assetBundleName: 
   assetBundleVariant: 

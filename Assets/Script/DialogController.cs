@@ -42,4 +42,8 @@ public class DialogController : MonoBehaviour
         Box.SetActive(false);
         Nextdialog.SetActive(true);
     }
+    public void end()
+    {
+        GameObject.Find("Data").GetComponent<DataController>().Map4_PE = true;
+    }
 }

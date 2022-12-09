@@ -16391,6 +16391,18 @@ PrefabInstance:
       propertyPath: maxHealthPoints
       value: 300
       objectReference: {fileID: 0}
+    - target: {fileID: 3072544763626438903, guid: 226d08634b9080948939ee2f9065b974, type: 3}
+      propertyPath: m_SortingLayer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3072544763626438903, guid: 226d08634b9080948939ee2f9065b974, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3072544763626438903, guid: 226d08634b9080948939ee2f9065b974, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1633059247
+      objectReference: {fileID: 0}
     - target: {fileID: 3072544763626438909, guid: 226d08634b9080948939ee2f9065b974, type: 3}
       propertyPath: m_RootOrder
       value: 28
@@ -16405,11 +16417,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3072544763626438909, guid: 226d08634b9080948939ee2f9065b974, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -26.2
+      value: -20.4
       objectReference: {fileID: 0}
     - target: {fileID: 3072544763626438909, guid: 226d08634b9080948939ee2f9065b974, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 50.1
+      value: 33.1
       objectReference: {fileID: 0}
     - target: {fileID: 3072544763626438909, guid: 226d08634b9080948939ee2f9065b974, type: 3}
       propertyPath: m_LocalPosition.z
@@ -16446,6 +16458,10 @@ PrefabInstance:
     - target: {fileID: 3072544763626438910, guid: 226d08634b9080948939ee2f9065b974, type: 3}
       propertyPath: m_Name
       value: EnemyVirus0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3072544763626438910, guid: 226d08634b9080948939ee2f9065b974, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4143915886822224656, guid: 226d08634b9080948939ee2f9065b974, type: 3}
       propertyPath: MinDistance
