@@ -1,5 +1,13 @@
 fileFormatVersion: 2
+<<<<<<< Updated upstream
 guid: 147d927ee69a4714ba528822c9aa8d7c
+=======
+<<<<<<< HEAD
+guid: 7b116372e76e36a4b99a815846bc3be2
+=======
+guid: 147d927ee69a4714ba528822c9aa8d7c
+>>>>>>> 6451d89499483cb01bd49259d567a2a232458c77
+>>>>>>> Stashed changes
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -20,6 +28,13 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+    flipGreenChannel: 0
+=======
+>>>>>>> 6451d89499483cb01bd49259d567a2a232458c77
+>>>>>>> Stashed changes
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
@@ -63,6 +78,13 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+  swizzle: 50462976
+=======
+>>>>>>> 6451d89499483cb01bd49259d567a2a232458c77
+>>>>>>> Stashed changes
   cookieLightType: 0
   platformSettings:
   - serializedVersion: 3
@@ -101,6 +123,11 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> Stashed changes
   - serializedVersion: 3
     buildTarget: WebGL
     maxTextureSize: 2048
@@ -113,6 +140,10 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+<<<<<<< Updated upstream
+=======
+>>>>>>> 6451d89499483cb01bd49259d567a2a232458c77
+>>>>>>> Stashed changes
   spriteSheet:
     serializedVersion: 2
     sprites: []
@@ -129,7 +160,14 @@ TextureImporter:
     nameFileIdTable: {}
   spritePackingTag: 
   pSDRemoveMatte: 0
+<<<<<<< Updated upstream
   pSDShowRemoveMatteOption: 0
+=======
+<<<<<<< HEAD
+=======
+  pSDShowRemoveMatteOption: 0
+>>>>>>> 6451d89499483cb01bd49259d567a2a232458c77
+>>>>>>> Stashed changes
   userData: 
   assetBundleName: 
   assetBundleVariant: 
