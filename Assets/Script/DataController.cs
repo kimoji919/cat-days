@@ -41,13 +41,18 @@ public class DataController : MonoBehaviour
     void Update()
     {
         //ÌåÁ¦¼ÇÂ¼
-/*        if (GameObject.Find("Player"))
+        /*        if (GameObject.Find("Player"))
+                {
+                    health = GameObject.Find("Player").GetComponent<Playercontroller>().health;
+                }
+                else
+                {
+                    health = healthInital;
+                }*/
+
+        if (Mole_Score >= 9)
         {
-            health = GameObject.Find("Player").GetComponent<Playercontroller>().health;
+            Mole_PE = true; 
         }
-        else
-        {
-            health = healthInital;
-        }*/
     }
 }
